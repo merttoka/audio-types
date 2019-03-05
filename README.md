@@ -14,7 +14,7 @@ The text used is Galileo's quote from *Il Saggiatore* (1623):
 
 > *"Philosophy is written in [the universe] which stands continously open to our gaze, but it cannot be understood unless one first learns the language and recognizes the characters in which it is written. It's written in the language of mathematics, and its characters are triangles, circles, and other geometric figures. Without knowledge of this medium, it is impossible to understand a single word of it; without this knowledge, one is wandering about a dark labryinth."*
 
-![laser projection of text](laser.png)
+![laser projection of text](docs/laser.png)
 
 ## Dependencies
 
