@@ -15,14 +15,14 @@ MoogFilter moog;
 class WordInstrument implements Instrument 
 {
   // variables
-  ADSR  adsr;
+  ADSR adsr;
   String text;
   
   // construct object
   WordInstrument( String word, float dur ){
     text = word;
     
-    adsr = new ADSR(0.2);
+    adsr = new ADSR(0.5);
         
     // patch everything together up to the final output
     xy.waveY.patch(adsr).patch(xy.outXY);
@@ -77,7 +77,7 @@ class WordInstrument implements Instrument
       } 
       popMatrix();
     }catch(Exception e) {
-      println("error");
+      println("Error with type generation.");
     }
   } 
 }
