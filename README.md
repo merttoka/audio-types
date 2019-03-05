@@ -10,7 +10,11 @@ A [Processing](https://processing.org/) sketch that renders text as vector audio
 - A **Moog filter** with slowly modulated frequency/resonance adds timbral variation
 - Text plays back word-by-word, each word's duration proportional to its character count, with punctuation-aware pauses
 
-The text used is Galileo's quote: *"Philosophy is written in [the universe]..."* — chosen for its meditation on geometry as the language of nature, fitting the medium.
+The text used is Galileo's quote from *Il Saggiatore* (1623):
+
+> *"Philosophy is written in [the universe] which stands continously open to our gaze, but it cannot be understood unless one first learns the language and recognizes the characters in which it is written. It's written in the language of mathematics, and its characters are triangles, circles, and other geometric figures. Without knowledge of this medium, it is impossible to understand a single word of it; without this knowledge, one is wandering about a dark labryinth."*
+
+![laser projection of text](laser.png)
 
 ## Dependencies
 
